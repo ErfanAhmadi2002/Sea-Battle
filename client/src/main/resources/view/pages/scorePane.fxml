@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="100.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.pages.ScorePane">
+   <children>
+      <ImageView fitHeight="100.0" fitWidth="800.0">
+         <image>
+            <Image url="@../../images/dark-blue-particle-texture-background.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="14.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name :" wrappingWidth="108.20506572723389">
+         <font>
+            <Font name="Cooper Black" size="29.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="353.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Score:" wrappingWidth="93.20507049560547">
+         <font>
+            <Font name="Cooper Black" size="29.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="552.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="State:" wrappingWidth="93.20506572723389">
+         <font>
+            <Font name="Cooper Black" size="29.0" />
+         </font>
+      </Text>
+      <Text fx:id="name" fill="WHITE" layoutX="122.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="203.2050657272339">
+         <font>
+            <Font name="Cooper Black" size="29.0" />
+         </font>
+      </Text>
+      <Text fx:id="score" fill="WHITE" layoutX="446.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="78.20506572723389">
+         <font>
+            <Font name="Cooper Black" size="29.0" />
+         </font>
+      </Text>
+      <Text fx:id="state" fill="WHITE" layoutX="645.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="145.2050657272339">
+         <font>
+            <Font name="Cooper Black" size="29.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

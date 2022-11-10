@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="250.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.pages.GameDataPane">
+   <children>
+      <ImageView fitHeight="250.0" fitWidth="800.0">
+         <image>
+            <Image url="@../../images/dark-blue-particle-texture-background.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="22.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Players" wrappingWidth="123.20506572723389">
+         <font>
+            <Font name="Cooper Black" size="29.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="22.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Player 1" wrappingWidth="123.205078125">
+         <font>
+            <Font name="Cooper Black" size="29.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="22.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Player 1" wrappingWidth="123.205078125">
+         <font>
+            <Font name="Cooper Black" size="29.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="189.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Healthy Ships" wrappingWidth="210.2050657272339">
+         <font>
+            <Font name="Cooper Black" size="29.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="466.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bombs" wrappingWidth="102.20505595207214">
+         <font>
+            <Font name="Cooper Black" size="29.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="643.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Turns" wrappingWidth="102.20506572723389">
+         <font>
+            <Font name="Cooper Black" size="29.0" />
+         </font>
+      </Text>
+      <Text fx:id="healthyShips1" fill="WHITE" layoutX="243.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="102.20506191253662">
+         <font>
+            <Font name="Cooper Black" size="29.0" />
+         </font>
+      </Text>
+      <Text fx:id="healthyShips2" fill="WHITE" layoutX="243.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="102.20506191253662">
+         <font>
+            <Font name="Cooper Black" size="29.0" />
+         </font>
+      </Text>
+      <Text fx:id="bombs1" fill="WHITE" layoutX="466.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="102.20506191253662">
+         <font>
+            <Font name="Cooper Black" size="29.0" />
+         </font>
+      </Text>
+      <Text fx:id="bombs2" fill="WHITE" layoutX="466.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="102.20506191253662">
+         <font>
+            <Font name="Cooper Black" size="29.0" />
+         </font>
+      </Text>
+      <Text fx:id="turns" fill="WHITE" layoutX="643.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="102.20506191253662">
+         <font>
+            <Font name="Cooper Black" size="44.0" />
+         </font>
+      </Text>
+      <Button fx:id="watchGame" layoutX="298.0" layoutY="168.0" mnemonicParsing="false" onAction="#watchGame" prefHeight="68.0" prefWidth="202.0" text="Watch Game" textFill="#3c0e8f">
+         <font>
+            <Font name="Franklin Gothic Medium" size="28.0" />
+         </font>
+         <effect>
+            <InnerShadow choke="0.61" color="#2411ff" height="52.1" radius="27.105" width="58.32" />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

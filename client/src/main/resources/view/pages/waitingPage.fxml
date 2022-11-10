@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.pages.WaitingPage">
+   <children>
+      <ImageView fitHeight="900.0" fitWidth="1200.0">
+         <image>
+            <Image url="@../../images/underwater-background-water-surface-ocean-sea_33099-1755.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#157a1f" layoutX="190.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Waiting for Opponent ..." textAlignment="CENTER" wrappingWidth="820.205078125">
+         <font>
+            <Font name="Cooper Black" size="56.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

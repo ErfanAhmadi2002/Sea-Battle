@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.pages.SignUpPage">
+   <children>
+      <ImageView fitHeight="900.0" fitWidth="1200.0">
+         <image>
+            <Image url="@../../images/seaBattle.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="register" layoutX="503.0" layoutY="382.0" mnemonicParsing="false" onAction="#register" prefHeight="70.0" prefWidth="180.0" text="register" textOverrun="CLIP">
+         <font>
+            <Font name="Castellar" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+      <Button fx:id="login" layoutX="504.0" layoutY="471.0" mnemonicParsing="false" onAction="#login" prefHeight="70.0" prefWidth="180.0" text="login" textOverrun="CLIP">
+         <font>
+            <Font name="Castellar" size="23.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

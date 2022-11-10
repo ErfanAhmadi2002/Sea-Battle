@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.pages.LoginPage">
+   <children>
+      <ImageView fitHeight="900.0" fitWidth="1200.0">
+         <image>
+            <Image url="@../../images/underwater-background-water-surface-ocean-sea_33099-1755.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#7c1414" layoutX="227.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fulfill the fields and login" wrappingWidth="746.205078125">
+         <font>
+            <Font name="Cooper Black" size="56.0" />
+         </font>
+      </Text>
+      <Text layoutX="391.0" layoutY="430.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username:" wrappingWidth="181.4228515625">
+         <font>
+            <Font name="Franklin Gothic Demi" size="34.0" />
+         </font>
+      </Text>
+      <Text layoutX="391.0" layoutY="493.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password :" wrappingWidth="181.4228515625">
+         <font>
+            <Font name="Franklin Gothic Demi" size="34.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="username" layoutX="572.0" layoutY="395.0" prefHeight="39.0" prefWidth="238.0" />
+      <TextArea fx:id="password" layoutX="572.0" layoutY="458.0" prefHeight="39.0" prefWidth="238.0" />
+      <Button fx:id="submit" layoutX="494.0" layoutY="643.0" mnemonicParsing="false" onAction="#submit" prefHeight="84.0" prefWidth="157.0" text="Submit" textFill="#3c0e8f">
+         <font>
+            <Font name="Franklin Gothic Medium" size="28.0" />
+         </font>
+         <effect>
+            <InnerShadow choke="0.61" color="#2411ff" height="52.1" radius="27.105" width="58.32" />
+         </effect>
+      </Button>
+      <Text fx:id="error" fill="#e81f1f" layoutX="165.0" layoutY="560.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="816.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

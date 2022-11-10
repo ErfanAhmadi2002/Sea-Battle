@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.pages.MainMenuPage">
+   <children>
+      <ImageView fitHeight="900.0" fitWidth="1200.0">
+         <image>
+            <Image url="@../../images/underwater-background-water-surface-ocean-sea_33099-1755.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#7c1414" layoutX="451.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MainMenu" wrappingWidth="298.205078125">
+         <font>
+            <Font name="Cooper Black" size="56.0" />
+         </font>
+      </Text>
+      <Button fx:id="newGame" layoutX="438.0" layoutY="253.0" mnemonicParsing="false" onAction="#newGame" prefHeight="84.0" prefWidth="324.0" text="New Game" textFill="#3c0e8f">
+         <font>
+            <Font name="Franklin Gothic Medium" size="28.0" />
+         </font>
+         <effect>
+            <InnerShadow choke="0.61" color="#2411ff" height="52.1" radius="27.105" width="58.32" />
+         </effect>
+      </Button>
+      <Button fx:id="liveGame" layoutX="438.0" layoutY="386.0" mnemonicParsing="false" onAction="#liveGame" prefHeight="84.0" prefWidth="324.0" text="Live Games" textFill="#3c0e8f">
+         <font>
+            <Font name="Franklin Gothic Medium" size="28.0" />
+         </font>
+         <effect>
+            <InnerShadow choke="0.61" color="#2411ff" height="52.1" radius="27.105" width="58.32" />
+         </effect>
+      </Button>
+      <Button fx:id="liveScore" layoutX="438.0" layoutY="520.0" mnemonicParsing="false" onAction="#liveScore" prefHeight="84.0" prefWidth="324.0" text="Live Score" textFill="#3c0e8f">
+         <font>
+            <Font name="Franklin Gothic Medium" size="28.0" />
+         </font>
+         <effect>
+            <InnerShadow choke="0.61" color="#2411ff" height="52.1" radius="27.105" width="58.32" />
+         </effect>
+      </Button>
+      <Button fx:id="profile" layoutX="438.0" layoutY="663.0" mnemonicParsing="false" onAction="#profile" prefHeight="84.0" prefWidth="324.0" text="Profile" textFill="#3c0e8f">
+         <font>
+            <Font name="Franklin Gothic Medium" size="28.0" />
+         </font>
+         <effect>
+            <InnerShadow choke="0.61" color="#2411ff" height="52.1" radius="27.105" width="58.32" />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>
